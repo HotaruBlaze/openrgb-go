@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/realbucksavage/openrgb-go"
 	"log"
+
+	"github.com/hotarublaze/openrgb-go"
 )
 
 func main() {

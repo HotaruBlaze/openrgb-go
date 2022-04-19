@@ -6,13 +6,13 @@ This library is Go a port of [vlakreeh/openrgb](https://github.com/vlakreeh/open
 ## Usage
 
 Here's how this library can be used to do some stuff. There's an example file in this repository 
-([`examples/basic.go`](https://github.com/realbucksavage/openrgb-go/blob/master/examples/basic.go)) that 
+([`examples/basic.go`](https://github.com/hotarublaze/openrgb-go/blob/master/examples/basic.go)) that 
 sets the color of all connected devices to Cyan.
 
 A connection to an OpenRGB Server can be opened like this:
 
 ```go
-import "github.com/realbucksavage/openrgb-go"
+import "github.com/hotarublaze/openrgb-go"
 
 func main() {
     c, err := openrgb.Connect("localhost", 6742)
