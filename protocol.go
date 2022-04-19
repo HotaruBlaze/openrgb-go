@@ -18,6 +18,10 @@ const (
 	commandUpdateLEDs             = 1050
 	commandUpdateZoneLEDs         = 1051
 	commandSetCustomMode          = 1100
+	commandGetProfiles            = 150
+	commandSaveProfile            = 151
+	commandLoadProfile            = 152
+	commandDeleteProfile          = 153
 )
 
 type orgbHeader struct {
